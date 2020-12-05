@@ -16,13 +16,14 @@ Alarm Operator
 
 ## Format
 **Simulated management console game**
-Our porjetc is a simulated managemet console game that opens to the public.
+
+Our project is a simulated managemet console game that opens to the public.
 The game simulates a real day in the life of a Blackwood alarm operator, who processes the alarms and responds to customer’s needs in a time manner.
 Our delivered home message is to let people get a sense of the alarm usage of disabled people in Scotland and raise awareness of the needs of people with disabilities.
 
 ## Data Description
 ### Customers
-114 customers in the dataset
+After cleaning and data merging, we have 114 customers in total in our dataset.
 
 ### Top 3 Popular Alarm Services
 * General Alarm (7991)
@@ -45,20 +46,20 @@ Our delivered home message is to let people get a sense of the alarm usage of di
 ### Disability types
 * **Physically Affected (28)**: Physical Injury, COPD, Spina Bifida, Arthritis, Asthma,Visual Impairment, Cancer, Amputee, Spina Bifida, Elderly Care/Support, Diabetes, Stroke, Lifelong Mobility Issues, Cerebral Palsy, Multiple Sclerosis, Brain Injury, Huntington's, Prone to Falls, Huntington's, Incontinence, Poor mobility, Parkinsons, Arthritis, Blind, Hearing, Impairment, Skin Issues, Multiple Sclerosis
 
-* **Physically Not Affected (5)**: Epilepsy, Mental Health Issues, Learning Difficulties, OCD,  Bi Polar Disorder
+* **Physically Not Affected (5)**: Epilepsy, Mental Health Issues, Learning Difficulties, OCD, Bi Polar Disorder
 
 ### Game Data Source
 The user alarm data from 7:00 AM - 10:00 PM was extracted proportionally according to the user’s request for alarm service at different times of the day from the original Blackwood's dataset.
 
 ## Gamification
 ### Time
-7: 00 A.M.-10: 00P.M. Game lasts for 4 minutes.
+Each round of game lasts for 4 minutes (7: 00 A.M.-10: 00P.M.).
 
 ### 8 Types of Customers
 1. Young Male Disability: Physical action not affected 
 2. Young Female, Disability: Physical action not affected
 3. Old Female Disability: Physical action affected
-4. Old Male Disability: Physical action  affected
+4. Old Male Disability: Physical action affected
 5. Young Male Disability: Physical action affected
 6. Young Female Disability: Physical action affected
 7. Old Female, Disability: Physical action not affected
