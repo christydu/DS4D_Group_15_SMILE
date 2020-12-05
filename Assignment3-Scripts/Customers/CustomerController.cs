@@ -11,7 +11,7 @@ public class CustomerController : MonoBehaviour {
 	// wishlist, wishlist ingredients, patience and animations.
 	//***************************************************************************//
 	//Modifiable variables (Only Through Inspector - Do not hardcode!)
-	public float customerPatience = 30.0f; 				//seconds (default = 30 or whatever you wish)
+    public float customerPatience = 25.0f; 				//seconds (default = 25 so that every value is positive)
     public static int satisfiednumber = 0;
     public static int unsatisfiednumber = 0;
     public static int alarmType;
