@@ -15,7 +15,7 @@ public class MainGameController : MonoBehaviour
     //***************************************************************************//
 
     // freeplay goal ballance
-    public int freeplayGoalBallance = 168;
+    public int freeplayGoalBallance = 170;
     static public int staticFreeplayGoalBallance; //To use freeplayGoalBallance in other classes 
                                                   //without needing the gameObject, while preserving the public type                                         //of the original variable "endlessGoalBallance"
                                                   //******************//
