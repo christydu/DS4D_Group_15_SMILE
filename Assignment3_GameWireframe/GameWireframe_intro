@@ -1,0 +1,6 @@
+This is the wireframe of the initial version of the game interface, divided into five sections:
+1. Game covers and introductions.
+2. Select level page 1, which is divided into three different areas, with the hover state showing the overall alarm data for the area.
+3. Select level page 2, where each area is divided into 12 months and the hover state shows the number of different types of alarms for that month.
+4. The game page. The alarm operator is required to service the alarm demand that keeps popping up.
+5. The game results page, showing game results and further data.
