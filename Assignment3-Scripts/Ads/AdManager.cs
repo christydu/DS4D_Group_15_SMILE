@@ -10,6 +10,7 @@ public class AdManager : MonoBehaviour {
 	/// And you can define new public functions here and call them later inside your game
 	/// </summary>
 
+	//not needed anymore
 	public string admobBannerID = 		"ca-app-pub-3940256099942544/2934735716";
 	public string admobInterstitialID = "ca-app-pub-3940256099942544/2934735716";
 	public string admobVideoID =		"ca-app-pub-3940256099942544/2934735716";
