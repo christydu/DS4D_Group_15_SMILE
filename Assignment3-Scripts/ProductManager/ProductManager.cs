@@ -16,13 +16,12 @@ public class ProductManager : MonoBehaviour {
 
 	//Number of ingredients this product consists.
 	//must be between 2 to 4 item.
-	public int totalIngredients = 4;
+	public int totalIngredients = 1;
+	//to adjust the ingredient number to simulate alarm situation.
 
 	//In the inspector, use the number above "totalIngredients" as the lentgh of this array.
 	//then assign a proper ID of desired ingredients to array's childs.
-	//note that IDs index should be carefully selected from existing ingrediets. in this kit we have 12 ingredients,
-	//so we can choose any index from 1 to 12.
-	//we also can use duplicate indexs. meaning a product can consist of two or more of the same ingredient.
+	
 	public int[] ingredientsIDs;
     //for example
     // a custom product definition is like this:
