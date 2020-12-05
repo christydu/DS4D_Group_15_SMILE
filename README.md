@@ -17,4 +17,7 @@ Our porjetc is a simulated managemet console game that opens to the public.
 The game simulates a real day in the life of a Blackwood alarm operator, who processes the alarms and responds to customer’s needs in a time manner.
 Our delivered home message is to let people get a sense of the alarm usage of disabled people in Scotland and raise awareness of the needs of people with disabilities.
 
+## About this Github Repository
+This repository contains three aspects of the project, one of which is all the environment and scripts for the project game. One part is all the data used in the game, and the other part is all the images used in the game.
+
 
