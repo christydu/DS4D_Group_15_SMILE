@@ -71,12 +71,12 @@ public class MenuController : MonoBehaviour {
 			switch(objectHit.name) {
 			
 				//Game Modes
-				case "Button-01":
+				case "Start":
 					playSfx(tapSfx);								//play touch sound
 					PlayerPrefs.SetString("gameMode", "FREEPLAY");	//set game mode to fetch later in "Game" scene
 					StartCoroutine(animateButton(objectHit));		//touch animation effect
 					yield return new WaitForSeconds(1.0f);			//Wait for the animation to end
-					SceneManager.LoadScene("Game-c#");				//Load the next scene
+					SceneManager.LoadScene("RegionSelection");		//Load the next scene
 					break;
 				case "Button-02":
 					playSfx(tapSfx);
