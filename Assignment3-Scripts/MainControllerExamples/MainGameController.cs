@@ -109,7 +109,6 @@ public class MainGameController : MonoBehaviour
     public AudioClip winSfx;
     public AudioClip loseSfx;
 
-    public List<List<string>> ArrayArrayData;
     public class CustomerList : List<Customer> { }
 
     public class Customer : List<Customer>
