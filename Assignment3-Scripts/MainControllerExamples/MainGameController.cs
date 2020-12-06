@@ -22,7 +22,7 @@ public class MainGameController : MonoBehaviour
                                                   //without needing the gameObject, while preserving the public type                                         //of the original variable "endlessGoalBallance"
                                                   //******************//
                                                   // Mission Variables (for Career mode) //
-    public int availableTime;               //Seconds
+    //public int availableTime;               //Seconds
                                             //******************//
                                             // Common variables
     static public bool canUseCandy;
