@@ -3,6 +3,7 @@ using System.Collections;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading;
+using UnityEngine.SceneManagement;
 
 public class MainGameController : MonoBehaviour
 {
@@ -40,7 +41,8 @@ public class MainGameController : MonoBehaviour
 
     //public game objects
     public GameObject[] customers;  //list of all available customers (different patience and textures)
-
+    public GameObject Click4More; //click for more button
+    
     //public variables
     //*****
     //How many seats are available in this shop?
@@ -611,5 +613,15 @@ public class MainGameController : MonoBehaviour
         GetComponent<AudioSource>().clip = _sfx;
         if (!GetComponent<AudioSource>().isPlaying)
             GetComponent<AudioSource>().Play();
+    }
+    
+    // click to switch to "EndScene" for more graphs
+    void Start () {
+		Click4More.GetComponent<Button>().onClick.AddListener(OnClick);
+    }
+
+    void OnClick()
+    {
+        SceneManager.LoadScene("EndScene"); //swtcih to "EndScene"
     }
 }
