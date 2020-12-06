@@ -17,11 +17,11 @@ public class BackButton : MonoBehaviour {
 	void Update () {
 		StartCoroutine(tapManager());
 		if(Input.GetKeyDown(KeyCode.Escape)) //back button in android / escape in windows
-			SceneManager.LoadScene(backTo);
+			SceneManager.LoadScene(backTo);//here change which scene to go back to
 	}
 
 
-	private RaycastHit hitInfo;
+	private RaycastHit hitInfo;//use raycast to detect whether two items are collided
 	private Ray ray;
 	IEnumerator tapManager (){
 		//Mouse of touch?
