@@ -3,6 +3,7 @@ using System.Collections;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainGameController : MonoBehaviour
