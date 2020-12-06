@@ -31,5 +31,11 @@ public class FileController : MonoBehaviour
             Debug.Log("customer time: " + one_customer.Time);
             Debug.Log("customer service name: " + one_customer.ServiceName);
         }
+        // Test if the customer_list was constructed as planned
+        for (int w=0; w < customer_list.Count; w++){
+          for (int t=0; t < customer_list[w].Count; t++){
+            print(customer_list[w][t]);
+        }
+      }
     }
 }
