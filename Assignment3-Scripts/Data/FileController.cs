@@ -26,6 +26,10 @@ public class FileController : MonoBehaviour
             one_customer.Type = CSV.GetInstance().getString(i,0);
             one_customer.Time = CSV.GetInstance().getString(i,1);
             one_customer.ServiceName = CSV.GetInstance().getString(i,2);
+            // Test if the CSV data was successfully loaded
+            Debug.Log("customer type: " + one_customer.Type);
+            Debug.Log("customer time: " + one_customer.Time);
+            Debug.Log("customer service name: " + one_customer.ServiceName);
         }
     }
 }
