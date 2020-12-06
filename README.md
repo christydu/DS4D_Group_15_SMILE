@@ -53,7 +53,7 @@ The user alarm data from 7:00 AM - 10:00 PM was extracted proportionally accordi
 
 ## Gamification
 ### Time
-Each round of game lasts for 4 minutes (7: 00 A.M.-10: 00P.M.).
+Each round of game lasts for 3 minutes (7: 00 A.M.-10: 00P.M.).
 
 ### 8 Types of Customers
 1. Young Male Disability: Physical action not affected 
