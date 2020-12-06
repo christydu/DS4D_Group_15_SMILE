@@ -100,7 +100,7 @@ public class CareerMapManager : MonoBehaviour {
 				playSfx(menuTap);
 				StartCoroutine(animateButton(objectHit));
 				yield return new WaitForSeconds(1.0f);
-				SceneManager.LoadScene("Menu-c#");
+				SceneManager.LoadScene("RegionSelection"); // switch to "RegionSelection" Scene
 				yield break;
 			}
 		}
