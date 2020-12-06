@@ -332,7 +332,7 @@ public class MainGameController : MonoBehaviour
         canCreateNewCustomer = false;
         StartCoroutine(reactiveCustomerCreation());
 
-        //这里头的变量和之前那样用就行了，Example： ID=openWith.ElementAt(indexOfDict).Value.ElementAt("ID").Value
+        //Example： ID=openWith.ElementAt(indexOfDict).Value.ElementAt("ID").Value
         //customerID = Random.Range(0, customers.Length);
         customerID = int.Parse(openWith.ElementAt(indexOfDict-1).Value[0])-1;
 
@@ -564,32 +564,6 @@ public class MainGameController : MonoBehaviour
             playNormalSfx(timeEndSfx);
             yield return new WaitForSeconds(2.0f);
             playNormalSfx(loseSfx);
-
-        }
-        else if (gameMode == "CAREER" && gameTime > 0 && totalMoneyMade >= requiredBalance)
-        {
-
-            //save career progress
-            saveCareerProgress();
-
-            //grant the prize
-            int levelPrize = PlayerPrefs.GetInt("careerPrize");
-            int currentMoney = PlayerPrefs.GetInt("PlayerMoney");
-            currentMoney += levelPrize;
-            PlayerPrefs.SetInt("PlayerMoney", currentMoney);
-
-            print("Wow, You beat the level! :)");
-            print("F:" + femalenumber);
-            print("M:" + malenumber);
-            totalnumber = femalenumber + malenumber;
-            servicenumber = satisfiedCustomer + unsatisfiedCustomer;
-            satisfiedText.GetComponent<TextMesh>().text = "Satisfied:" + satisfiedCustomer.ToString() + "\r\n" + "Unsatisfied:" + unsatisfiedCustomer.ToString();
-            endGamePlane.SetActive(true);
-            endGameStatus.GetComponent<Renderer>().material.mainTexture = endGameTextures[0];
-            playNormalSfx(winSfx);
-
-            //save gametime for level stars system
-            PlayerPrefs.SetFloat("Level-" + PlayerPrefs.GetInt("careerLevelID").ToString(), Time.timeSinceLevelLoad);
 
         }
         else if (gameMode == "FREEPLAY" && totalMoneyMade >= requiredBalance)
