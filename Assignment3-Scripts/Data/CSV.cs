@@ -18,6 +18,14 @@ public class CSV
       }
 
       private CSV() { m_ArrayData = new List<string> (); }
+      
+      public string getString(int row, int col) {
+        return m_ArrayData [row][col];
+      }
+      
+      public int getInt(int row, int col) {
+        return int.Parse (m_ArrayData [row][col]);
+      }
 
       public void loadFile(string path, string filename)
       {
@@ -36,7 +44,7 @@ public class CSV
           string line;
           while((line=sr.ReadLine()) != null)
           {
-              m_ArrayData.Add(line);
+              m_ArrayData.Add(line.Split(','));
           }
           sr.Close();
           sr.Dispose();
