@@ -8,9 +8,9 @@ public class GraphDisplay: MonoBehaviour {
  // Use this for initialization
     public GameObject buttonShow;
     public GameObject buttonClose;
-    public GameObject Scene;
-    public GameObject Sceneclose;
-    public GameObject Scenecontinue;
+    public GameObject Scene; // for stats graphs
+    public GameObject Sceneclose; // for stats graphs' close button
+    public GameObject Scenecontinue; // for stats graphs' continue button
     private void Start()
      {
          buttonShow.GetComponent<Button>().onClick.AddListener(Show);
@@ -19,16 +19,22 @@ public class GraphDisplay: MonoBehaviour {
          Scenecontinue.GetComponent<Button>().onClick.AddListener(Show);
 
      }
+ 
+    // click region to show stats graphs, close buttons & continue buttons
      void Show()
      {
         Scene.GetComponent<Image>().enabled = true;
         Sceneclose.GetComponent<Image>().enabled = true;
         Scenecontinue.GetComponent<Image>().enabled = true;
     }
+ 
+    // click "close button" to close stats graphs
     void Close()
      {
         Scene.GetComponent<Image>().enabled = false;
     }
+    
+    // click "close button" to close "close button" and "continue button"
     void Scenebuttonclose()
     {
         Sceneclose.GetComponent<Image>().enabled = false;
