@@ -17,7 +17,6 @@ public class BlenderController : MonoBehaviour {
 	public Texture2D blenderTexture;			//main texture of the blender machine
 
 	public GameObject smokeFx;		//smoke used to show after blender transforms into a final product
-	public GameObject[] led;		//used to show the timer in a nice way
 
 	//Static variable to let customers know they can receive their orders
 	public bool canDeliverOrder;
@@ -392,14 +391,5 @@ public class BlenderController : MonoBehaviour {
 		canDeliverOrder = true;
 	}
 
-
-	//***************************************************************************//
-	// Play AudioClips
-	//***************************************************************************//
-	void playSfx ( AudioClip _sfx  ){
-		GetComponent<AudioSource>().clip = _sfx;
-		if(!GetComponent<AudioSource>().isPlaying)
-			GetComponent<AudioSource>().Play();
-	}
 
 }
