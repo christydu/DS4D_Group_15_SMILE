@@ -109,13 +109,13 @@ public class PauseManager : MonoBehaviour {
 						
 					case "Btn-Restart":
 						UnPauseGame();
-                        //Time.timeScale = 0;
+                        Time.timeScale = 0;
                         MainGameController.countMinutes = 0;
                         MainGameController.hours= 7;
                         //print("虫灾");
                         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
                         //Time.timeScale = 0;
-                        print(Time.timeSinceLevelLoad);
+                        //print(Time.timeSinceLevelLoad);
 						break;
 						
 					case "End-Menu":
