@@ -1,0 +1,20 @@
+ServiceName,StartTime,Gender,DisablingConditions,AgeGroup,Geog,hour,month,Time,Type
+General Alarm,2019-10-28 07:12:00,M,Physically Not Affected,<60,East,07,10,07:12,3
+General Alarm,2019-10-28 07:33:00,M,Physically Not Affected,<60,East,07,10,07:33,3
+Pull Cord Alarm,2018-10-30 15:35:00,M,Physically Affected,<60,East,15,10,15:35,1
+Pull Cord Alarm,2018-10-30 15:47:00,M,Physically Affected,<60,East,15,10,15:47,1
+Pull Cord Alarm,2018-10-29 19:32:00,M,Physically Affected,<60,East,19,10,19:32,1
+General Alarm,2019-10-13 22:00:00,M,Physically Not Affected,>60,East,22,10,22:00,7
+General Alarm,2019-10-14 22:03:00,F,Physically Affected,<60,East,22,10,22:03,2
+General Alarm,2019-10-19 22:04:00,F,Physically Affected,<60,East,22,10,22:04,2
+Pull Cord Alarm,2018-10-29 22:08:00,M,Physically Affected,<60,East,22,10,22:08,1
+Pull Cord Alarm,2018-10-30 22:15:00,M,Physically Affected,<60,East,22,10,22:15,1
+General Alarm,2019-10-25 22:16:00,M,Physically Not Affected,<60,East,22,10,22:16,3
+General Alarm,2019-10-31 22:20:00,F,Physically Affected,<60,East,22,10,22:20,2
+General Alarm,2019-10-20 22:21:00,M,Physically Not Affected,<60,East,22,10,22:21,3
+General Alarm,2019-10-22 22:23:00,M,Physically Not Affected,<60,East,22,10,22:23,3
+Pull Cord Alarm,2018-10-30 22:30:00,M,Physically Affected,<60,East,22,10,22:30,1
+General Alarm,2019-10-13 22:35:00,M,Physically Not Affected,<60,East,22,10,22:35,3
+General Alarm,2019-10-26 22:44:00,M,Physically Not Affected,>60,East,22,10,22:44,7
+General Alarm,2019-10-31 22:45:00,M,Physically Not Affected,>60,East,22,10,22:45,7
+General Alarm,2019-10-15 22:59:00,M,Physically Not Affected,<60,East,22,10,22:59,3

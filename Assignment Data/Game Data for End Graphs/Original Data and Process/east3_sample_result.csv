@@ -1,0 +1,43 @@
+ServiceName,StartTime,Gender,DisablingConditions,AgeGroup,Geog,hour,month,Time,Type
+General Alarm,2019-03-30 08:38:00,F,Physically Affected,>60,East,08,03,08:38,6
+Pull Cord Alarm,2019-03-23 08:51:00,M,Physically Affected,<60,East,08,03,08:51,1
+General Alarm,2019-03-15 08:55:00,F,Physically Affected,>60,East,08,03,08:55,6
+Pull Cord Alarm,2019-03-29 09:44:00,M,Physically Affected,<60,East,09,03,09:44,1
+Wrist Alarm,2019-03-21 11:13:00,M,Physically Affected,<60,East,11,03,11:13,1
+Pull Cord Alarm,2019-03-18 11:28:00,M,Physically Affected,<60,East,11,03,11:28,1
+Pull Cord Alarm,2019-03-23 11:45:00,M,Physically Affected,<60,East,11,03,11:45,1
+Pull Cord Alarm,2019-03-20 11:46:00,M,Physically Affected,<60,East,11,03,11:46,1
+Pull Cord Alarm,2019-03-13 14:06:00,F,Physically Affected,>60,East,14,03,14:06,6
+Pull Cord Alarm,2019-03-13 14:18:00,M,Physically Affected,<60,East,14,03,14:18,1
+Pull Cord Alarm,2019-03-20 14:35:00,M,Physically Affected,<60,East,14,03,14:35,1
+Pull Cord Alarm,2019-03-29 14:36:00,M,Physically Affected,<60,East,14,03,14:36,1
+Pull Cord Alarm,2019-03-20 14:37:00,M,Physically Affected,<60,East,14,03,14:37,1
+General Alarm,2019-03-25 14:43:00,M,Physically Not Affected,<60,East,14,03,14:43,3
+General Alarm,2019-03-25 14:55:00,M,Physically Not Affected,<60,East,14,03,14:55,3
+Pull Cord Alarm,2019-03-14 15:13:00,M,Physically Affected,<60,East,15,03,15:13,1
+Pull Cord Alarm,2019-03-23 15:23:00,M,Physically Affected,<60,East,15,03,15:23,1
+Pull Cord Alarm,2019-03-15 15:25:00,M,Physically Affected,<60,East,15,03,15:25,1
+Pull Cord Alarm,2019-03-19 15:33:00,M,Physically Affected,<60,East,15,03,15:33,1
+General Alarm,2020-03-13 15:41:00,F,Physically Affected,<60,East,15,03,15:41,2
+Pull Cord Alarm,2019-03-15 18:02:00,M,Physically Affected,<60,East,18,03,18:02,1
+Pull Cord Alarm,2019-03-25 19:43:00,M,Physically Affected,<60,East,19,03,19:43,1
+Pull Cord Alarm,2019-03-16 19:44:00,M,Physically Affected,<60,East,19,03,19:44,1
+Pull Cord Alarm,2019-03-27 19:47:00,M,Physically Affected,<60,East,19,03,19:47,1
+Wrist Alarm,2019-03-18 19:54:00,M,Physically Affected,<60,East,19,03,19:54,1
+Pull Cord Alarm,2019-03-27 19:56:00,M,Physically Affected,<60,East,19,03,19:56,1
+Pull Cord Alarm,2019-03-14 20:26:00,M,Physically Affected,<60,East,20,03,20:26,1
+Pull Cord Alarm,2019-03-18 20:45:00,F,Physically Not Affected,>60,East,20,03,20:45,8
+Pull Cord Alarm,2019-03-21 21:04:00,M,Physically Affected,>60,East,21,03,21:04,5
+General Alarm,2019-03-22 22:01:00,F,Physically Affected,<60,East,22,03,22:01,2
+General Alarm,2020-03-19 22:02:00,F,Physically Affected,<60,East,22,03,22:02,2
+General Alarm,2020-03-18 22:06:00,M,Physically Not Affected,<60,East,22,03,22:06,3
+General Alarm,2020-03-18 22:07:00,M,Physically Not Affected,<60,East,22,03,22:07,3
+General Alarm,2020-03-27 22:09:00,M,Physically Not Affected,<60,East,22,03,22:09,3
+General Alarm,2019-03-25 22:16:00,F,Physically Affected,<60,East,22,03,22:16,2
+General Alarm,2019-03-26 22:19:00,M,Physically Not Affected,<60,East,22,03,22:19,3
+General Alarm,2019-03-18 22:25:00,F,Physically Affected,<60,East,22,03,22:25,2
+Pull Cord Alarm,2019-03-16 22:27:00,M,Physically Affected,<60,East,22,03,22:27,1
+General Alarm,2019-03-31 22:42:00,F,Physically Affected,<60,East,22,03,22:42,2
+General Alarm,2020-03-18 22:43:00,M,Physically Not Affected,>60,East,22,03,22:43,7
+General Alarm,2019-03-28 22:45:00,M,Physically Not Affected,<60,East,22,03,22:45,3
+General Alarm,2020-03-23 22:46:00,M,Physically Not Affected,>60,East,22,03,22:46,7

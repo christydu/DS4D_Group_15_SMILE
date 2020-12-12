@@ -1,0 +1,14 @@
+ServiceName,StartTime,Gender,DisablingConditions,AgeGroup,Geog,hour,month,Time,Type
+General Alarm,2020-09-26 07:25:00,M,Physically Affected,>60,West,07,09,07:25,5
+General Alarm,2020-09-23 07:42:00,M,Physically Affected,>60,West,07,09,07:42,5
+General Alarm,2020-09-28 10:35:00,F,Physically Affected,>60,West,10,09,10:35,6
+General Alarm,2020-09-18 11:19:00,M,Physically Affected,>60,West,11,09,11:19,5
+General Alarm,2020-09-18 12:16:00,M,Physically Affected,>60,West,12,09,12:16,5
+General Alarm,2020-09-19 15:23:00,M,Physically Affected,<60,West,15,09,15:23,1
+General Alarm,2020-09-17 15:35:00,M,Physically Affected,<60,West,15,09,15:35,1
+General Alarm,2020-09-17 16:04:00,M,Physically Affected,>60,West,16,09,16:04,5
+General Alarm,2019-09-16 16:19:00,M,Physically Affected,<60,West,16,09,16:19,1
+General Alarm,2019-09-18 17:26:00,M,Physically Not Affected,<60,West,17,09,17:26,3
+General Alarm,2020-09-18 19:27:00,M,Physically Affected,>60,West,19,09,19:27,5
+General Alarm,2020-09-28 21:11:00,M,Physically Affected,>60,West,21,09,21:11,5
+General Alarm,2019-09-21 22:33:00,M,Physically Affected,<60,West,22,09,22:33,1
