@@ -1,1 +1,1 @@
-Original data and Notebook for processing it.
+Original data and the Python Notebook for processing it.
